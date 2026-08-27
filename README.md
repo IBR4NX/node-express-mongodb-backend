@@ -1,4 +1,4 @@
-# Backend Server
+# Node.js Express MongoDB Backend
 
 A Node.js and Express backend for user authentication, JWT-based authorization, MongoDB persistence, and product management. The project uses ECMAScript modules and connects to MongoDB through Mongoose.
 
@@ -47,7 +47,7 @@ Install the following before starting the project:
 Clone the repository and install its dependencies:
 
 ```bash
-git clone https://github.com/IBR4NX/backend-server.git
+git clone https://github.com/IBR4NX/node-express-mongodb-backend.git
 cd backend-server
 npm install
 ```
@@ -346,9 +346,9 @@ The package metadata declares the project license as **ISC**.
 
 ## References
 
-[1]: https://github.com/IBR4NX/backend-server "backend-server repository"
-[2]: https://github.com/IBR4NX/backend-server/blob/main/package.json "Project package manifest"
-[3]: https://github.com/IBR4NX/backend-server/blob/main/.env.example "Environment configuration template"
-[4]: https://github.com/IBR4NX/backend-server/blob/main/routes/router.js "Main API router"
-[5]: https://github.com/IBR4NX/backend-server/blob/main/routes/access/token.js "Token generation and refresh handlers"
-[6]: https://github.com/IBR4NX/backend-server/blob/main/auth/jwt.js "JWT authorization middleware"
+[1]: https://github.com/IBR4NX/node-express-mongodb-backend "backend-server repository"
+[2]: https://github.com/IBR4NX/node-express-mongodb-backend/blob/main/package.json "Project package manifest"
+[3]: https://github.com/IBR4NX/node-express-mongodb-backend/blob/main/.env.example "Environment configuration template"
+[4]: https://github.com/IBR4NX/node-express-mongodb-backend/blob/main/routes/router.js "Main API router"
+[5]: https://github.com/IBR4NX/node-express-mongodb-backend/blob/main/routes/access/token.js "Token generation and refresh handlers"
+[6]: https://github.com/IBR4NX/node-express-mongodb-backend/blob/main/auth/jwt.js "JWT authorization middleware"
