@@ -1,4 +1,4 @@
-import {PORT,corsUrl,environment} from '../config.js';
+import {PORT,corsUrl,environment} from './config.js';
 import express from 'express';
 import bcrypt from 'bcrypt';
 import cors from 'cors';

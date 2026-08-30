@@ -1,6 +1,6 @@
 import { JWT_REFRESH_SECRET, JWT_ACCESS_SECRET } from "../../config.js";
 import asyncHandler from "express-async-handler";
-import modelUser from "../../database/models/modelUser.js"; // نموذج المستخدم
+import modelUser from "../../database/models/modelUser.js"; 
 import jwt from "jsonwebtoken";
 
 const refreshAccessToken = asyncHandler(async (req, res) => {
@@ -15,7 +15,7 @@ const refreshAccessToken = asyncHandler(async (req, res) => {
     decoded = jwt.verify(refreshToken, JWT_REFRESH_SECRET);
   } catch (err) {
     res.status(403);
-    throw new Error("Refresh Token غير صالح أو منتهي");
+    throw new Error("Refresh Token is ended");
   }
 
   const user = await modelUser.findById(decoded.id).select("+refreshToken").exec();
